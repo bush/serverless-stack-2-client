@@ -2,17 +2,17 @@ const dev = {
   STRIPE_KEY: "pk_test_eqZiXvstFqyA9zpuseKG7d6q",
   s3: {
     REGION: "us-east-1",
-    BUCKET: "notes-app-2-api-dev-serverlessdeploymentbucket-caoub5um981g"
+    BUCKET: "notes-app-mono-uploads-dev-s3bucket-12z3ola730ve2"
   },
   apiGateway: {
     REGION: "us-east-1",
-    URL: "https://8jr3jjf0nj.execute-api.us-east-1.amazonaws.com/dev"
+    URL: "https://puwbz95ywl.execute-api.us-east-1.amazonaws.com/dev"
   },
   cognito: {
     REGION: "us-east-1",
-    USER_POOL_ID: "us-east-1_Cp3K3yFWE",
-    APP_CLIENT_ID: "14l5rik9cmh6noo9r4dv3ne9ku",
-    IDENTITY_POOL_ID: "us-east-1:dced38be-671e-4fe5-be75-bc8274efbd6f"
+    USER_POOL_ID: "us-east-1_rKfZCIaVB",
+    APP_CLIENT_ID: "23l1jov5d34368joa3q61dqa1c",
+    IDENTITY_POOL_ID: "us-east-1:35e586f4-88f2-4780-b26c-58c576d4d6d7"
   }
 };
 
