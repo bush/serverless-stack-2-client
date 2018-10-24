@@ -73,7 +73,7 @@ export default class Home extends Component {
   }
 
   renderNotes() {
-    return <div className="notes">{this.state.notes}</div>;
+    return <div className="notes">{this.state.notes.message}</div>;
     /*
     return (
       <div className="notes">
